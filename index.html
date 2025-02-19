@@ -3,61 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Designed Web Page</title>
+    <title>Personal-Portfolio-Ramos</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Oswald:wght@200..700&family=Uncial+Antiqua&display=swap" rel="stylesheet">
 </head>
-<body class="bg-gray-800 text-white flex flex-col min-h-screen">
-    <header class="bg-gray-900 shadow-lg w-full">
-        <div class="max-w-6xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between">
-            <div class="w-full md:w-1/2 text-center md:text-left">
-                <h1 class="text-3xl font-bold">Hi! My name is</h1>
-                <h1 class="text-4xl font-bold mt-2">GABRIEL ANGELO S. RAMOS</h1>
-            </div>
-            <div class="w-full md:w-1/2 flex flex-col items-center p-6">
-                <img class="w-100 h-100 rounded-lg border-4 border-gray-600 shadow-lg" 
-                    src="images/FormalPhoto.png">
-                <h1 class="text-xl mt-4">This is my formal self</h1>
-            </div>
-        </div>
+
+<body>
+    <header class="main-header">
+        <h1>  </h1>
     </header>
-    
-    <main class="max-w-6xl mx-auto p-6 flex-grow">
-        <section class="bg-gray-700 p-6 rounded-lg shadow-md">
-            <h2 class="text-4xl font-semibold">Here are a few things about me:</h2>
-            <ul class="list-none mt-2 space-y-2">
-                <li class="text-2xl">Age:</li>
-                <ul class="list-disc pl-6 text-xl">
-                    <li>I am 19 years old, but people say I look 20-30.</li>
-                </ul>
 
-                <li class="text-2xl">Hobbies:</li>
-                <ul class="list-disc pl-6 text-xl">
-                    <li>I play games, specifically Strategy and/or FPS games.</li>
-                    <li>I perform other physical activities, like table tennis or hiking.</li>
-                    <li>I am an avid Warframe Enjoyer.</li>
-                </ul>
-
-                <li class="text-2xl">Interests:</li>
-                <ul class="list-disc pl-6 text-xl">
-                    <li>I am currently exploring the world of culinary as a way to alleviate boredom.</li>
-                    <li>I am trying to learn and improve my art skills, specifically drawing.</li>
-                </ul>
-            </ul>
+    <div class="container">
+        <section class="split left section-1">
+            <div class="centered">
+                <h2>Hi! My name is Gabriel Angelo S. Ramos</h2>
+            </div>
+        </section>
+        <section class="split right section-2">
+            <div class="centered">
+                <img src="images/FormalPhoto.png" alt="Avatar man">
+                <p>This Is Me</p>
+            </div>
         </section>
         
-        <section class="mt-6 bg-gray-700 p-6 rounded-lg shadow-md">
-            <h2 class="text-2xl font-semibold">Contact Details</h2>
-            <p class="mt-2">If you’d like to reach out, you can email me at 
-                <a class="text-blue-400 hover:underline" href="mailto:gsr3550@students.uc-bcf.edu.ph">gsr3550@students.uc-bcf.edu.ph</a>.
-            </p>
-            <p class="mt-2">Or visit my Facebook profile by clicking 
-                <a class="text-blue-400 hover:underline" href="https://www.facebook.com/gabrielangelo.ramos.3/">Here</a>.
-            </p>
+
+        <hr class="divider">
+        <section class="split left section-3">
+            <div class="centered">
+                <h2>About Me</h2>
+                <ul class="info-list">
+                    <li>I am 19 years old, but people see me as I am in my 20-30s</li>
+                    <li>I tinker a lot, especially in digital environments</li>
+                    <li>I perform other physical activities, one that I enjoy is table tennis</li>
+                    <li>I am an avid Warframe enjoyer.</li>
+                    <li>I am also taking a chance towards culinary as a secondary skill/option when I am bored</li>
+                </ul>
+            </div>
         </section>
-    </main>
-    
-    <footer class="bg-gray-900 text-center p-4 mt-6 shadow-lg">
-        <p>&copy; 2025 Gabriel Angelo S. Ramos. No rights reserved.</p>
+        
+        <section class="split right section-4">
+            <div class="centered">
+                <h2>Projects</h2>
+                <ul class="info-list">
+                    <li>Duis aute irure dolor in reprehenderit </li>
+                    <li>in voluptate velit esse cillum</li>
+                    <li>dolore eu fugiat nulla pariatur.</li>
+                    <li>Excepteur sint occaecat cupidatat non proident,</li>
+                    <li>sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                </ul>
+            </div>
+        </section>
+
+
+        <hr class="divider">
+<section class="split left section-5">
+    <div class="centered">
+        <h2>My Hobbies</h2>
+        <div class="hobby-container">
+            <div class="hobby-box">
+                <h3>🎮 Gaming</h3>
+                <p>Love playing strategy and FPS games, then actively quitting them right after</p>
+            </div>
+            <div class="hobby-box">
+                <h3>📷 Photography</h3>
+                <p>Capturing moments and landscapes that I probably won't go back to.</p>
+            </div>
+            <div class="hobby-box">
+                <h3>🔪 Cooking</h3>
+                <p>Making possibly the best or worst dishes my mind comes up with.</p>
+            </div>
+            <div class="hobby-box">
+                <h3>🏋️‍♂️ Fitness</h3>
+                <p>Staying active and lifting weights, every 3 weeks.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <hr class="divider">
+    <footer class="main-footer">
+        <p>© 2025 Gabriel Angelo S. Ramos. All rights reserved.</p>
     </footer>
 </body>
 </html>
